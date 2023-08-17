@@ -1,0 +1,26 @@
+---
+title: "My story title"
+aythor: "Sasiwipha Srikueakun"
+format: html
+---
+
+## Exercise in USA practice
+
+```{r}
+library(dplyr)
+library(tidyverse)
+
+exercise <- readr::read_csv("https://github.com/rfordatascience/tidytuesday/blob/master/data/2018/2018-04-23/week4_australian_salary.csv")
+```
+
+## show trend graph
+```{r}
+library(ggplot2)
+
+exercise %>%
+  group_by(gender) %>%
+  summarize(avg_income = sum(average_taxable_income)) %>%
+  ggplot(aes(x = gender, y = avg_income)) + 
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
