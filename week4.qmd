@@ -1,6 +1,6 @@
 ---
 title: "My story title"
-aythor: "Sasiwipha Srikueakun"
+author: "Sasiwipha Srikueakun"
 format: html
 ---
 

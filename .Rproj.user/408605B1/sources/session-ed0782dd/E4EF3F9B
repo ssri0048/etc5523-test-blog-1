@@ -3,7 +3,7 @@
     "path": "~/Desktop/sem2-monash/ETC5523/tut/week3/week4/testfileweek4/posts/hot-one-post/newpostinsidefolderpost.qmd",
     "project_path": "testfileweek4/posts/hot-one-post/newpostinsidefolderpost.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2465293056",
     "contents": "",
     "dirty": false,
     "created": 1692274892897.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "13,3",
+        "cursorPosition": "24,3",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1692275015,
+    "lastKnownWriteTime": 1692278082,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1692275015952,
+    "last_content_update": 1692278082589,
     "read_only": false,
     "read_only_alternatives": []
 }
